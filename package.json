@@ -3,12 +3,19 @@
   "version": "1.0.0",
   "description": "This is a react-boilerplate created from following [this tutorial](https://dev.to/theoutlander/build-your-own-react-boilerplate-4b8l).",
   "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "express": "^4.16.3",
+    "npm": "^6.1.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "build": "npm run build-server && npm run build-client",
     "build-server": "babel src/server --out-dir ./dist",
     "build-client": "babel src/client --copy-files --out-dir ./dist/public",
     "start": "node ./dist/index.js"
-  }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ralphiz/react-boilerplate.git"
@@ -18,13 +25,5 @@
   "bugs": {
     "url": "https://github.com/ralphiz/react-boilerplate/issues"
   },
-  "homepage": "https://github.com/ralphiz/react-boilerplate#readme",
-  "dependencies": {
-    "express": "^4.16.3",
-    "npm": "^6.1.0"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
-  }
+  "homepage": "https://github.com/ralphiz/react-boilerplate#readme"
 }
