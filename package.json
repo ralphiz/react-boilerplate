@@ -1,0 +1,19 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "This is a react-boilerplate created from following [this tutorial](https://dev.to/theoutlander/build-your-own-react-boilerplate-4b8l).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ralphiz/react-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ralphiz/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/ralphiz/react-boilerplate#readme"
+}
