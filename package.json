@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/ralphiz/react-boilerplate/issues"
   },
-  "homepage": "https://github.com/ralphiz/react-boilerplate#readme"
+  "homepage": "https://github.com/ralphiz/react-boilerplate#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "npm": "^6.1.0"
+  }
 }
